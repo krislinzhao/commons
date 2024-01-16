@@ -1,0 +1,95 @@
+{
+  "properties": [
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-log-level",
+      "type": "com.hikvision.commons.log.enums.Level",
+      "defaultValue": "debug",
+      "description": "全局综合日志级别"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-log-position",
+      "type": "com.hikvision.commons.log.enums.Position",
+      "defaultValue": "unknown",
+      "description": "全局综合日志代码定位"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-log-formatter",
+      "type": "java.lang.Class<? extends com.hikvision.commons.log.formatter.LogFormatter>",
+      "defaultValue": "DefaultLogFormatter",
+      "description": "全局综合日志格式化"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-log-callback",
+      "type": "java.lang.Class<? extends com.hikvision.commons.log.callback.LogCallback>",
+      "defaultValue": "VoidLogCallback",
+      "description": "全局综合日志回调"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-param-log-level",
+      "type": "com.hikvision.commons.log.enums.Level",
+      "defaultValue": "debug",
+      "description": "全局参数日志级别"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-param-log-position",
+      "type": "com.hikvision.commons.log.enums.Position",
+      "defaultValue": "unknown",
+      "description": "全局参数日志代码定位"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-param-log-formatter",
+      "type": "java.lang.Class<? extends com.hikvision.commons.log.formatter.ParamLogFormatter>",
+      "defaultValue": "DefaultParamLogFormatter",
+      "description": "全局参数日志格式化"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-param-log-callback",
+      "type": "java.lang.Class<? extends com.hikvision.commons.log.callback.LogCallback>",
+      "defaultValue": "VoidLogCallback",
+      "description": "全局参数日志回调"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-result-log-level",
+      "type": "com.hikvision.commons.log.enums.Level",
+      "defaultValue": "debug",
+      "description": "全局结果日志级别"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-result-log-position",
+      "type": "com.hikvision.commons.log.enums.Position",
+      "defaultValue": "unknown",
+      "description": "全局结果日志代码定位"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-result-log-formatter",
+      "type": "java.lang.Class<? extends com.hikvision.commons.log.formatter.ResultLogFormatter>",
+      "defaultValue": "DefaultResultLogFormatter",
+      "description": "全局结果日志格式化"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-result-log-callback",
+      "type": "java.lang.Class<? extends com.hikvision.commons.log.callback.LogCallback>",
+      "defaultValue": "VoidLogCallback",
+      "description": "全局结果日志回调"
+    },
+    {
+      "sourceType": "com.hikvision.commons.log.config.Slf4jProperties",
+      "name": "logging.slf4j.global-throwing-log-callback",
+      "type": "java.lang.Class<? extends com.hikvision.commons.log.callback.LogCallback>",
+      "defaultValue": "VoidLogCallback",
+      "description": "全局异常日志回调"
+    }
+  ]
+}

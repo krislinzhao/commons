@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.hikvision.custom</groupId>
+        <artifactId>custom-commons-sdk</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <packaging>pom</packaging>
+
+    <artifactId>custom-bom</artifactId>
+    <name>${project.artifactId}</name>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.hikvision.custom</groupId>
+                <artifactId>custom-exception</artifactId>
+                <version>${project.parent.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.hikvision.custom</groupId>
+                <artifactId>custom-log</artifactId>
+                <version>${project.parent.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.hikvision.custom</groupId>
+                <artifactId>custom-utils</artifactId>
+                <version>${project.parent.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.hikvision.custom</groupId>
+                <artifactId>custom-cache</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.hikvision.custom</groupId>
+                <artifactId>custom-core</artifactId>
+                <version>${project.parent.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hikvision.custom</groupId>
+            <artifactId>custom-exception</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hikvision.custom</groupId>
+            <artifactId>custom-log</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hikvision.custom</groupId>
+            <artifactId>custom-utils</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hikvision.custom</groupId>
+            <artifactId>custom-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hikvision.custom</groupId>
+            <artifactId>custom-cache</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

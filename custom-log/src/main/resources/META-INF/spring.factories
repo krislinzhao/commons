@@ -1,0 +1,2 @@
+# 日志自动装配类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.hikvision.commons.log.config.LogAutoConfiguration
